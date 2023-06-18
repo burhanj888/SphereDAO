@@ -1,0 +1,62 @@
+/* Header.css */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f2f2f2;
+    padding: 10px;
+  }
+  
+  .company-name {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .left-corner {
+    display: flex;
+    align-items: center;
+  }
+  
+  .right-corner {
+    display: flex;
+    align-items: center;
+  }
+  
+  .wallet-info {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+  }
+  
+  .wallet-address {
+    margin-right: 10px;
+  }
+  
+  .user-balance {
+    margin-right: 10px;
+  }
+  
+  .navigation {
+    display: flex;
+    margin-right: 20px;
+  }
+  
+  .navigation-item {
+    margin-right: 10px;
+    font-size: 16px;
+  }
+  
+  .connect-button {
+    padding: 8px 16px;
+    font-size: 16px;
+    background-color: #0080ff;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .connect-button:hover {
+    background-color: #0059b3;
+  }
+  

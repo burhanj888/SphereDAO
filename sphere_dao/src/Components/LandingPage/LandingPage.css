@@ -1,0 +1,51 @@
+.landing-page {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f9fa;
+    margin-top: 40px;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+  }
+
+
+  
+  
+  .signup-button {
+    margin-right: 20px;
+  }
+  
+  .content {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .content h1 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .content h3 {
+    font-size: 24px;
+    color: #888888;
+    margin-bottom: 20px;
+  }
+  
+  .content p {
+    font-size: 18px;
+    color: #555555;
+  }
+  

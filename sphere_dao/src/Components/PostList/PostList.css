@@ -1,0 +1,32 @@
+.post-list-container {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .post-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    margin-bottom: 20px;
+    background-color: #f7f7f7;
+    width: 600px;
+    height: 150px;
+    border-radius: 10px;
+  }
+  
+  .post-content {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .post-actions {
+    display: flex;
+  }
+  
+  .action-button {
+    margin-right: 10px;
+  }
+  
