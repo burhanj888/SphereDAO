@@ -30,6 +30,12 @@ const PostList = () => {
 
     // Save the updated posts to local storage
     localStorage.setItem('posts', JSON.stringify(updatedPosts));
+
+    if(updatedPosts[index].downvotes>=10){
+      localStorage.removeItem('posts',JSON.stringify(updatedPosts));
+      window.location.reload(true);
+    }
+
   };
 
   return (
@@ -37,7 +43,7 @@ const PostList = () => {
     {/* <Header></Header> */}
     <div className="post-list-container">
       <ListGroup>
-        {posts.map((post, index) => (
+        {posts && posts.map((post, index) => (
           <ListGroup.Item key={index} className="post-item">
             <div className="post-content">{post.content}</div>
             <div className="post-actions">
